@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto card rounded mt-5" id="main-section">
+                Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Molestias earum iure 
+                reprehenderit inventore! Necessitatibus 
+                laborum laboriosam incidunt hic modi ducimus. 
+                Ipsa vitae facilis doloribus commodi suscipit 
+                consequuntur accusamus, ipsum ullam.
+            </div>
+           <ul class="list-group" style="list-style: none;">
+            <li class="text-center mt-5">
+                <!-- inline javascript -->
+                <button class="btn btn-success" onclick="alert('I am inline js');"
+                >click me 1</button>
+            </li>
+            <li class="text-center mt-5">
+                 <!-- function call javascript -->
+                <button class="btn btn-success" onclick="buttonClick();"
+                >click me 2</button>
+            </li>
+            <li class="text-center mt-5">
+                 <!-- function call from external script javascript -->
+                <button class="btn btn-success" onclick="scriptButtonClick();"
+                >click me 2</button>
+            </li>
+            <li class="text-center mt-5">
+                 <!-- function call from external script javascript -->
+                <button class="btn btn-success" onclick="changeBgColor();"
+                >click me to change bg-color</button>
+            </li>
+            <li class="text-center mt-5">
+                 <!-- function call from external script javascript -->
+                <button class="btn btn-success" onclick="removeBgColor();"
+                >click me to remove bg-color</button>
+            </li>
+           </ul>
+        </div>
+    </div>]
+
+<script>
+function buttonClick(){
+    alert('I am a function call');
+}
+
+</script>
+<script src="../assests/js/main.js"></script>
+</body>
+</html>
