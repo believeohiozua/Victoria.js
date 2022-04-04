@@ -14,6 +14,7 @@ to push back updated work
 4. commit your changes `git commit -m "message"`
 5. push your changes `git push origin <branch name>`
 
+- - to check current branch `git branch`
 
 #### make a pull request 
 - click on the button `Create pull request`
